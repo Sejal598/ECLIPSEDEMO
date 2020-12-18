@@ -42,7 +42,7 @@ public class FirstServlet extends HttpServlet {
 		else {
 			out.println("Sorry incorrect");
 			out.println("Tyr again");
-			out.println("Tyr again");
+			out.println("Everyone Hiiii");
 			RequestDispatcher rd= request.getRequestDispatcher("/index.html");
 			rd.include(request, response);
 		}
